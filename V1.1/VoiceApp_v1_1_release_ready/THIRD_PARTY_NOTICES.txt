@@ -1,0 +1,15 @@
+Included third-party libraries and supplied notices
+
+- SDL3.dll 3.4.16: LICENSES/SDL3_LICENSE.txt (zlib)
+- SDL3_ttf.dll 3.2.2: LICENSES/SDL3_ttf_LICENSE.txt (zlib)
+- portaudio.dll, reporting V19.7.0-devel: LICENSES/PortAudio_LICENSE.txt
+  (PortAudio permission notice from the provided vcpkg copyright file);
+  LICENSES/PortAudio_vcpkg_copyright_original.txt retains that original file.
+- SDL_ttf's README names FreeType (FTL), HarfBuzz (MIT), PlutoSVG (MIT), and
+  PlutoVG (MIT): see LICENSES/SDL3_ttf_README.md for upstream license links.
+
+The supplied files do not contain the full license texts for those four
+SDL_ttf component libraries. Confirm which are built into the particular
+SDL3_ttf.dll and add their corresponding original notices before public
+distribution. BUILD_INFO and CONTROL from vcpkg describe its PortAudio build
+and package version; they are metadata, not license texts.
